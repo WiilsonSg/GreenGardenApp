@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name" translatable="false">GreenGardenApp</string>
+    <string name="styled_text" translatable="false">Términos y Condiciones \nde <b><font color='#068251'>Green</font></b>Garden</string>
+    <string name="styled_text_politiTitle" translatable="false">Política de Privacidad de \nde <b><font color='#068251'>Green</font></b>Garden</string>
+    <string name="styled_text_login" translatable="false">Welcome to\n<b><font color='#068251'>Green</font></b>Garden</string>
+    <string name="styled_text_acepto" translatable="false">Al hacer clic en <b><font color='#068251'>ACEPTO</font></b>, confirmo que he leído y comprendido los Términos y Condiciones, y estoy de acuerdo en cumplirlos.</string>
+    <string name="style_text_pilitical" translatable="false">1. Introducción\n
+GreenGarden se compromete a proteger y respetar su privacidad. Esta Política de Privacidad describe cómo recopilamos, usamos y compartimos su información personal cuando utiliza nuestra aplicación móvil.\n
+2. Información que Recopilamos\n
+2.1 Información que Usted Nos Proporciona\n
+Información de Registro:      Cuando se registra en la Aplicación, recopilamos su nombre, dirección de      correo electrónico y cualquier otra información que proporcione.\n
+Información del Perfil: Puede      agregar más información a su perfil, como una foto, ubicación y detalles      de su jardín.\n
+2.2 Información que Recopilamos Automáticamente\n
+Datos de Uso:      Recopilamos información sobre su interacción con la Aplicación, como las      características que usa, las acciones que realiza y el tiempo que pasa en      la Aplicación.\n
+Información del Dispositivo:      Recopilamos información sobre el dispositivo móvil que utiliza para      acceder a la Aplicación, incluyendo el modelo del dispositivo, el sistema      operativo y la dirección IP.\n
+2.3 Información de Sensores\n
+Datos de Sensores: Si      utiliza sensores conectados a la Aplicación, recopilamos datos sobre las      condiciones de sus plantas o suelo y el consumo diario de agua.\n
+3. Cómo Usamos Su Información\n
+Usamos la información que recopilamos para:\n
+Proveer y mejorar la Aplicación.\n
+Personalizar su experiencia.\n
+Comunicarnos con usted, responder a sus preguntas y proporcionarle      soporte.\n
+Monitorear y analizar tendencias, uso y actividades en relación con      la Aplicación.\n
+4. Cómo Compartimos Su Información\n
+No compartimos su información personal con terceros, excepto en las siguientes circunstancias:\n
+Con Proveedores de Servicios:      Podemos compartir información con proveedores de servicios que realizan      servicios en nuestro nombre, como análisis de datos y soporte al cliente.\n
+Por Requisitos Legales: Podemos      divulgar información si estamos obligados a hacerlo por ley o en respuesta      a una solicitud legal válida.\n
+Para Proteger Nuestros Derechos:      Podemos divulgar información para proteger los derechos, propiedad o      seguridad de GreenGarden, nuestros usuarios u otros.\n
+5. Seguridad de la Información\n
+Tomamos medidas razonables para proteger su información personal contra pérdida, robo, uso indebido y acceso no autorizado, divulgación, alteración y destrucción. Sin embargo, ningún método de transmisión por Internet o almacenamiento electrónico es 100% seguro.\n
+6. Sus Derechos\n
+Dependiendo de su jurisdicción, puede tener ciertos derechos sobre su información personal, incluyendo el derecho a acceder, corregir o eliminar su información. Para ejercer estos derechos, por favor contáctenos al correo serratogwilson@gmail.com.\n
+7. Cambios a Esta Política de Privacidad\n
+Podemos actualizar esta Política de Privacidad de vez en cuando. Le notificaremos sobre cualquier cambio publicando la nueva Política de Privacidad en la Aplicación. Su uso continuado de la Aplicación después de dichos cambios constituye su aceptación de la nueva Política de Privacidad.\n
+8. Contacto\n
+Si tiene alguna pregunta sobre esta Política de Privacidad, por favor contáctenos al correo serratogwilson@gmail.com.
+</string>
+    <string name="styled_text_terms" translatable="false"> 1. Aceptación de los Términos\n
+Al descargar, instalar o utilizar la aplicación GreenGarden, usted acepta estar sujeto a estos Términos y Condiciones. Si no está de acuerdo con estos Términos, no debe usar la Aplicación.\n
+2. Descripción del Servicio\n
+GreenGarden es una aplicación móvil que permite a los usuarios gestionar y monitorear jardines urbanos, rastrear el consumo de agua, energía y fertilizantes en tiempo real utilizando sensores conectados a la Aplicación o puede hacer registro de forma manual.\n
+3. Registro de Cuenta\n
+Para utilizar ciertas funciones de la Aplicación, es posible que deba registrarse y crear una cuenta. Usted es responsable de mantener la confidencialidad de su cuenta y contraseña, y es responsable de todas las actividades que ocurran bajo su cuenta.\n
+4. Privacidad\n
+Su privacidad es importante para nosotros. Por favor, lea nuestra <link>Política</link> de Privacidad entender cómo recopilamos, usamos y protegemos su información personal.\n
+5. Uso Aceptable\n
+Usted se compromete a utilizar la Aplicación únicamente para fines legales y de acuerdo con estos Términos. No puede usar la Aplicación para ningún propósito ilegal o no autorizado, ni puede, en el uso de la Aplicación, violar ninguna ley en su jurisdicción.\n
+6. Propiedad Intelectual\n
+Todos los derechos, títulos e intereses en y para la Aplicación y su contenido, incluyendo pero no limitándose a gráficos, textos, imágenes, logotipos y software, son propiedad exclusiva de GreenGarden y están protegidos por derechos de autor y otras leyes de propiedad intelectual.\n
+7. Limitación de Responsabilidad\n
+La Aplicación se proporciona "tal cual" y "según disponibilidad". GreenGarden no garantiza que la Aplicación será ininterrumpida, libre de errores o segura. En ningún caso GreenGarden será responsable por cualquier daño indirecto, incidental, especial, consecuente o punitivo, o por cualquier pérdida de datos, uso, buena voluntad u otras pérdidas intangibles, resultantes de su acceso o uso o incapacidad para acceder o usar la Aplicación.\n
+8. Modificaciones a los Términos\n
+GreenGarden se reserva el derecho de modificar estos Términos en cualquier momento. Le notificaremos de cualquier cambio publicando los nuevos Términos en la Aplicación. Su uso continuado de la Aplicación después de dicha notificación constituye su aceptación de los nuevos Términos.\n
+9. Terminación\n
+Podemos suspender o terminar su acceso a la Aplicación en cualquier momento, sin previo aviso, por cualquier motivo, incluyendo pero no limitándose a su incumplimiento de estos Términos. Tras la terminación, su derecho a utilizar la Aplicación cesará inmediatamente.\n
+10. Ley Aplicable\n
+Estos Términos se regirán e interpretarán de acuerdo con las leyes del país en el que se encuentra la sede de GreenGarden, sin dar efecto a sus disposiciones sobre conflictos de leyes.\n
+11. Contacto\n
+Si tiene alguna pregunta sobre estos Términos, por favor contacte a <b><font color='#068251'>Green</font></b>Garden en <b><font color='#068251'>serratogwilson@gmail.com</font></b>
+</string>
+
+
+</resources>
