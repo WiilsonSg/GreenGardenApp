@@ -17,7 +17,7 @@ GreenGarden es una aplicación móvil diseñada para ayudar a los usuarios a ges
 - **Lenguaje de programación**: Java
 - **Plataforma**: Android
 
-  ##Videos
+  ## Videos
 **En Figma**: https://youtu.be/6UKJ7fcNPzw?si=pdLCKIoXTq5wwhR9 \n
   
 **En android**: https://youtu.be/JhKvBwMoimo?si=4bxDKl8jz9QVKcqw
