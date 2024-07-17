@@ -22,4 +22,4 @@ GreenGarden es una aplicación móvil diseñada para ayudar a los usuarios a ges
 
 1. Clona este repositorio:
    ```bash
-   [git clone https://github.com/tu_usuario/GreenGarden.git](https://github.com/WiilsonSg/GreenGardenApp.git)
+   https://github.com/WiilsonSg/GreenGardenApp.git
