@@ -18,8 +18,10 @@ GreenGarden es una aplicación móvil diseñada para ayudar a los usuarios a ges
 - **Plataforma**: Android
 
   ##Videos
+**En Figma**: https://youtu.be/6UKJ7fcNPzw?si=pdLCKIoXTq5wwhR9
+**En android**: https://youtu.be/JhKvBwMoimo?si=4bxDKl8jz9QVKcqw
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/JhKvBwMoimo?si=SktGuHNTwZc15OyL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ## Instalación
 
