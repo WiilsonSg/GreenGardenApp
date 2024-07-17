@@ -1,4 +1,4 @@
-# GreenGarden
+# GreenGardenApp
 
 ## Descripción
 
@@ -6,10 +6,11 @@ GreenGarden es una aplicación móvil diseñada para ayudar a los usuarios a ges
 
 ## Características
 
-- **Monitoreo en tiempo real**: Utiliza sensores Arduino para rastrear las condiciones de las plantas y el uso diario de agua.
+- **Monitoreo en tiempo real**: Utiliza sensores para rastrear las condiciones de las plantas y el uso diario de agua.
 - **Gestión de recursos**: Controla el consumo de agua, energía y fertilizantes.
 - **Interfaz amigable**: Diseño intuitivo que facilita la navegación y el uso de la aplicación.
 - **Alertas y notificaciones**: Recibe avisos sobre las necesidades de riego y cuidado de las plantas.
+- **ChatBot**: Tienes un chatBot que te brindara tips para cuidar bien tu huerto urbano
 
 ## Tecnologías utilizadas
 
@@ -21,4 +22,4 @@ GreenGarden es una aplicación móvil diseñada para ayudar a los usuarios a ges
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/GreenGarden.git
+   [git clone https://github.com/tu_usuario/GreenGarden.git](https://github.com/WiilsonSg/GreenGardenApp.git)
