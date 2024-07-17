@@ -16,7 +16,10 @@ GreenGarden es una aplicación móvil diseñada para ayudar a los usuarios a ges
 
 - **Lenguaje de programación**: Java
 - **Plataforma**: Android
-- **Hardware**: Arduino para la recopilación de datos
+
+  ##Videos
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/JhKvBwMoimo?si=SktGuHNTwZc15OyL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Instalación
 
