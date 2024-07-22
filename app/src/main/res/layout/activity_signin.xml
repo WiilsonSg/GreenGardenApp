@@ -7,6 +7,12 @@
     android:layout_height="match_parent"
     tools:context=".Signin">
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="679dp"
@@ -51,7 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="40dp"
-        android:text="             Hi \n Welcome"
+        android:text="           Hola! \n Bienvenido"
         android:textColor="#ffffff"
         android:textSize="30dp"
         android:textStyle="bold"
@@ -77,12 +83,12 @@
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Email"
+            android:text="Correo"
             android:textColor="#000000"
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/email_entry"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:ems="10"
@@ -92,30 +98,45 @@
             android:background="@drawable/edittex_background"
             android:textSize="18dp"
             android:inputType="text"
-            android:hint="Enter Your Email" />
+            android:hint="Ingresa tu correo" />
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            android:text="Password"
+            android:text="Contraseña"
             android:textColor="#000000"
             android:textSize="20sp" />
 
-        <EditText
-            android:id="@+id/editTextText2"
+
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:ems="10"
-            android:paddingTop="5dp"
-            android:paddingLeft="12dp"
-            android:layout_marginTop="0dp"
-            android:textColor="#5A5858"
-            android:background="@drawable/edittex_background"
-            android:textSize="18dp"
-            android:inputType="text"
-            android:hint="Enter Your Password" />
+            android:layout_height="41dp">
+
+            <EditText
+                android:id="@+id/password_entry"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/edittex_background"
+                android:ems="10"
+                android:hint="Ingresa tu contraseña"
+                android:inputType="textPassword"
+                android:paddingLeft="9dp"
+                android:paddingTop="5dp"
+                android:textColor="#5A5858"
+                android:textSize="18dp" />
+
+            <androidx.constraintlayout.utils.widget.ImageFilterButton
+                android:id="@+id/visibilityOff"
+                android:layout_width="46dp"
+                android:layout_height="41dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                app:srcCompat="@drawable/visibility_off" />
+        </RelativeLayout>
 
         <TextView
             android:id="@+id/contra1"
@@ -157,6 +178,23 @@
             android:textStyle="bold"/>
 
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_marginBottom="70dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <ImageView
+            android:id="@+id/goBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/chevrons_left" />
     </LinearLayout>
 
 

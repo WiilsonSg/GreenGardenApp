@@ -56,8 +56,11 @@ Podemos suspender o terminar su acceso a la Aplicación en cualquier momento, si
 10. Ley Aplicable\n
 Estos Términos se regirán e interpretarán de acuerdo con las leyes del país en el que se encuentra la sede de GreenGarden, sin dar efecto a sus disposiciones sobre conflictos de leyes.\n
 11. Contacto\n
-Si tiene alguna pregunta sobre estos Términos, por favor contacte a <b><font color='#068251'>Green</font></b>Garden en <b><font color='#068251'>serratogwilson@gmail.com</font></b>
-</string>
+Si tiene alguna pregunta sobre estos Términos, por favor contacte a GreenGarden en serratogwilson@gmail.com</string>
+
+    <string name="checkBoxGreen"> Acepta <link>Términos.</link></string>
+
+    <string name="bio">¡¡Hola!! Soy ingeniera 🌱 apasionada por la jardinería urbana y la sostenibilidad. 🌿</string>
 
 
 </resources>

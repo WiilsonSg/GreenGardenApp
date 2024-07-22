@@ -90,7 +90,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.949">
+        app:layout_constraintVertical_bias="0.885">
 
         <TextView
             android:id="@+id/NameR"
@@ -123,7 +123,7 @@
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/enterYourEmail"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginTop="1dp"
@@ -145,7 +145,7 @@
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/editTextText2"
+            android:id="@+id/enterYourPassword"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginTop="1dp"
@@ -168,7 +168,7 @@
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/editTextText2Pass"
+            android:id="@+id/enterYourRePassword"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginTop="1dp"
@@ -182,6 +182,15 @@
             android:textSize="18dp" />
 
 
+        <CheckBox
+            android:id="@+id/checkBoxTerm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:text="@string/checkBoxGreen"/>
+
+
         <TextView
             android:id="@+id/textView8"
             android:layout_width="match_parent"
@@ -190,7 +199,8 @@
             android:text="Registrarse con"
             android:textAlignment="center"
             android:textColor="@color/blueD"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            />
 
 
         <ImageView
@@ -214,7 +224,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="322dp"
+        android:layout_width="match_parent"
         android:layout_height="81dp"
         android:layout_marginBottom="70dp"
         android:orientation="vertical"

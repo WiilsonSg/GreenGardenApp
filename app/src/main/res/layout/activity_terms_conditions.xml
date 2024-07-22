@@ -45,13 +45,18 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:gravity="center">
 
                 <Button
+                    android:id="@+id/noAcep"
                     android:layout_width="130dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="40dp"
-                    android:text="No Acepto" />
+                    android:text="No Acepto"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/Red"
+                    android:layout_marginBottom="5dp"/>
 
                 <Button
                     android:id="@+id/actpTerms"
@@ -59,7 +64,10 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="40dp"
                     android:layout_marginRight="40dp"
-                    android:text="Acepto" />
+                    android:text="Acepto"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/green"
+                    android:layout_marginBottom="5dp"/>
             </LinearLayout>
 
 

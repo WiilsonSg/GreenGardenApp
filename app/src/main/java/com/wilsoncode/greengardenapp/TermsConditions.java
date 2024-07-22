@@ -21,7 +21,8 @@ public class TermsConditions extends AppCompatActivity {
 
     TextView texpolicies;
     String paragraph;
-    Button acepTerms;
+    Button acepTerms, noAcepTerm;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +38,7 @@ public class TermsConditions extends AppCompatActivity {
         texpolicies = findViewById(R.id.textCondition);
         paragraph = getString(R.string.styled_text_terms);
         acepTerms = (Button) findViewById(R.id.actpTerms);
+        noAcepTerm = (Button) findViewById(R.id.noAcep);
 
         SpannableString spannableString = new SpannableString(paragraph);
         String keyword = "Política";
@@ -61,9 +63,19 @@ public class TermsConditions extends AppCompatActivity {
         acepTerms.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(TermsConditions.this, MainScreen.class);
+                Intent intent = new Intent(TermsConditions.this, Signup.class);
                 startActivity(intent);
             }
         });
+
+        noAcepTerm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent2 = new Intent(TermsConditions.this,MainActivity.class);
+                startActivity(intent2);
+            }
+        });
+
+
     }
 }

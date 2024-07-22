@@ -5,12 +5,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.ListView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import java.util.ArrayList;
 
 public class MainScreen extends AppCompatActivity {
 
@@ -19,6 +22,13 @@ public class MainScreen extends AppCompatActivity {
     ImageView staticsGreen;
     ImageView tipsGreen;
     ImageView profileGreen;
+
+    //Lista de huertos
+    ListView list;
+    ArrayList<GardenRegister> miArray = new ArrayList<GardenRegister>();
+    GardenList adapter;
+
+    GardenRegister.Plant plant;
 
 
     @Override
@@ -31,6 +41,12 @@ public class MainScreen extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+
+        //listGarden
+        list = findViewById(R.id.listGardenView);
+        fillDataGarden();
+
 
         homeGreen = findViewById(R.id.home);
         categoryGreen = findViewById(R.id.category);
@@ -78,5 +94,15 @@ public class MainScreen extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+
+    private void fillDataGarden(){
+        miArray.add(new GardenRegister("apio", "Apio", plant.apio));
+        miArray.add(new GardenRegister("zanahoria", "Zanahoria", plant.zanahoria));
+        miArray.add(new GardenRegister("tomate", "Tomate", plant.tomate));
+        miArray.add(new GardenRegister("fresa", "Fresa", plant.fresa));
+
+        adapter = new GardenList(this, miArray);
+        list.setAdapter(adapter);
     }
 }
