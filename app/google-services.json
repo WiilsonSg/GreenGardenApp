@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "26897973734",
+    "project_id": "greengarden-4f21c",
+    "storage_bucket": "greengarden-4f21c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26897973734:android:0b4dcd0584d3a11ca01627",
+        "android_client_info": {
+          "package_name": "com.wilsoncode.greengardenapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf0XoAS9VASW1_zNmV0ZBsuruQ8nVe4PI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

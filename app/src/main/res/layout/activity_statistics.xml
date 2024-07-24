@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Statistics"
-    android:background="@color/white">
+    android:background="@color/White">
 
     <ImageView
         android:id="@+id/imageView4"
@@ -18,47 +18,169 @@
         app:srcCompat="@drawable/mainfon" />
 
     <LinearLayout
-        android:layout_width="389dp"
-        android:layout_height="529dp"
-        android:layout_marginTop="300dp"
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/boder_perfil"
         android:orientation="vertical"
+
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estadistica"
+            android:textAlignment="center"
+            android:textColor="@color/Green"
+
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="Selecciona un Informe"
+            android:textAlignment="center"
+            android:textColor="@color/GreenCl"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="32dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
-            android:id="@+id/imageView166"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_marginLeft="40dp"
-            app:srcCompat="@drawable/aguar" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:background="@drawable/border_estadistica"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
 
-        <ImageView
-            android:id="@+id/imageView16"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="1dp"
-            app:srcCompat="@drawable/luz" />
+            <ImageView
+                android:id="@+id/imageView166"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="40dp"
+                app:srcCompat="@drawable/aguar" />
 
-        <ImageView
-            android:id="@+id/imageView17"
-            android:layout_width="60dp"
-            android:layout_height="70dp"
-            android:layout_marginLeft="52dp"
-            android:layout_marginTop="5dp"
-            app:srcCompat="@drawable/abono" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:textSize="17dp"
+                android:text="Consumo de agua"/>
+        </LinearLayout>
 
-        <ImageView
-            android:id="@+id/imageView18"
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="12dp"
-            app:srcCompat="@drawable/newgarden" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:background="@drawable/border_estadistica"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="1dp"
+                app:srcCompat="@drawable/luz" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:textSize="17dp"
+                android:text="Consumo de luz" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:background="@drawable/border_estadistica"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="40dp"
+                app:srcCompat="@drawable/abono" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:textSize="17dp"
+                android:text="Uso de abono" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:background="@drawable/border_estadistica"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="40dp"
+                app:srcCompat="@drawable/newgarden" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:textSize="17dp"
+                android:text="Huertos registrados" />
+
+        </LinearLayout>
+
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout5"
         android:layout_width="395dp"
         android:layout_height="77dp"
         android:layout_marginTop="24dp"
@@ -70,8 +192,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0">
-
-
 
 
         <ImageView
@@ -101,13 +221,13 @@
             android:layout_height="40dp"
             android:layout_margin="20dp"
             app:srcCompat="@drawable/clock" />
+
         <ImageView
             android:id="@+id/profile"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_margin="20dp"
             app:srcCompat="@drawable/user" />
-
 
 
     </LinearLayout>

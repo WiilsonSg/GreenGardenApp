@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/White"
     tools:context=".MainScreen">
 
 
@@ -34,7 +34,7 @@
         app:layout_constraintVertical_bias="0.172"
         app:shapeAppearanceOverlay="@style/circular"
         app:srcCompat="@drawable/model"
-        app:strokeColor="@color/white"
+        app:strokeColor="@color/White"
         app:strokeWidth="2dp" />
 
     <LinearLayout
@@ -55,7 +55,7 @@
             android:layout_height="wrap_content"
             android:text="Riana Smith"
             android:textAlignment="center"
-            android:textColor="@color/green"
+            android:textColor="@color/Green"
             android:textSize="30dp"
             android:textStyle="bold" />
 
@@ -67,7 +67,7 @@
             android:paddingRight="30dp"
             android:text="@string/bio"
             android:textAlignment="center"
-            android:textColor="@color/greenCl" />
+            android:textColor="@color/GreenCl" />
 
 
     </LinearLayout>
@@ -92,7 +92,7 @@
             android:layout_centerVertical="true"
             android:text="Mis huertos urbanos"
             android:textAlignment="center"
-            android:textColor="@color/green"
+            android:textColor="@color/Green"
             android:textSize="15dp"
             android:textStyle="bold" />
 
@@ -119,7 +119,6 @@
 
     </RelativeLayout>
 
-
     <ListView
         android:id="@+id/listGardenView"
         android:layout_width="399dp"
@@ -130,6 +129,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/relativeLayout3" />
+
 
     <LinearLayout
         android:id="@+id/linearLayout2"

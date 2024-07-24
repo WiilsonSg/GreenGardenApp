@@ -54,7 +54,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="40dp"
                     android:text="No Acepto"
-                    android:textColor="@color/white"
+                    android:textColor="@color/White"
                     android:backgroundTint="@color/Red"
                     android:layout_marginBottom="5dp"/>
 
@@ -65,8 +65,8 @@
                     android:layout_marginLeft="40dp"
                     android:layout_marginRight="40dp"
                     android:text="Acepto"
-                    android:textColor="@color/white"
-                    android:backgroundTint="@color/green"
+                    android:textColor="@color/White"
+                    android:backgroundTint="@color/Green"
                     android:layout_marginBottom="5dp"/>
             </LinearLayout>
 
