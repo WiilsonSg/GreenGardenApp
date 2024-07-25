@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,12 +14,15 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class ProfileEdit extends AppCompatActivity {
 
+    LinearLayout changePasswordB;
+
+
     ImageView homeGreen;
     ImageView categoryGreen;
     ImageView staticsGreen;
     ImageView tipsGreen;
     ImageView profileGreen;
-    ImageView exitLogin;
+    LinearLayout exitLogin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -84,6 +88,15 @@ public class ProfileEdit extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(ProfileEdit.this, MainActivity.class);
                 startActivity(intent);
+            }
+        });
+
+        changePasswordB = findViewById(R.id.changePassword);
+        changePasswordB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(ProfileEdit.this, ChangePassword.class);
+                startActivity(i);
             }
         });
     }

@@ -7,4 +7,15 @@
     <color name="BlueD">#205072</color>
     <color name="Red">#FE0000</color>
     <color name="Grey">#B2BABB</color>
+    <color name="GreenXCl">#40068251</color>
 </resources>
+
+
+<!--
+Opacidad para los colores
+FF (100% opacidad)
+BF (75% opacidad)
+80 (50% opacidad)
+40 (25% opacidad)
+00 (0% opacidad
+-->
