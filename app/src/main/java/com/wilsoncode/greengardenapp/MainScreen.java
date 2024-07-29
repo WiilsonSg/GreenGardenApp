@@ -22,6 +22,7 @@ public class MainScreen extends AppCompatActivity {
     ImageView staticsGreen;
     ImageView tipsGreen;
     ImageView profileGreen;
+    ImageView grid_main;
 
     //Lista de huertos
     ListView list;
@@ -47,12 +48,13 @@ public class MainScreen extends AppCompatActivity {
         list = findViewById(R.id.listGardenView);
         fillDataGarden();
 
-
+        //Botones de la barra de navegación
         homeGreen = findViewById(R.id.home);
         categoryGreen = findViewById(R.id.category);
         staticsGreen = findViewById(R.id.statics);
         tipsGreen = findViewById(R.id.tips);
         profileGreen = findViewById(R.id.profile);
+        grid_main = findViewById(R.id.grid);
 
 
         homeGreen.setOnClickListener(new View.OnClickListener() {
@@ -92,6 +94,14 @@ public class MainScreen extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainScreen.this, ProfileEdit.class);
                 startActivity(intent);
+            }
+        });
+
+        grid_main.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent g = new Intent(MainScreen.this, MainScreenGrid.class);
+                startActivity(g);
             }
         });
     }

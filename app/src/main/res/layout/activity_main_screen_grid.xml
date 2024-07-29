@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/White"
-    tools:context=".MainScreen">
+    tools:context=".MainScreenGrid">
 
 
     <ImageView
@@ -105,7 +105,7 @@
             android:layout_marginEnd="40dp"
             android:layout_toStartOf="@+id/grid"
             android:background="@null"
-            app:srcCompat="@drawable/baseline_format_list_bulleted_24" />
+            app:srcCompat="@drawable/baseline_format_list_bulleted_24_opacity_" />
 
         <androidx.constraintlayout.utils.widget.ImageFilterButton
             android:id="@+id/grid"
@@ -114,21 +114,24 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:background="@null"
-            app:srcCompat="@drawable/baseline_grid_view_24_opacity" />
+            app:srcCompat="@drawable/baseline_grid_view_24" />
 
 
     </RelativeLayout>
 
-    <ListView
-        android:id="@+id/listGardenView"
+    <GridView
+        android:id="@+id/listGardenGrid"
         android:layout_width="399dp"
         android:layout_height="343dp"
+        android:numColumns="2"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/relativeLayout3" />
+
+
 
 
     <LinearLayout
@@ -182,6 +185,8 @@
 
 
     </LinearLayout>
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
