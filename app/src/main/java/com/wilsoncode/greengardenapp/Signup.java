@@ -29,11 +29,21 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.wilsoncode.greengardenapp.helper.FileManager;
+import com.wilsoncode.greengardenapp.models.User;
 
 public class Signup extends AppCompatActivity {
 
+    //Datos del usuario
+    User user;
+    EditText user_name;
+    EditText user_email;
+    EditText password;
+    EditText password_confirm;
     Button singUpButtonGo;
-    ImageView buttonGoBack;
+
+
+    ImageView buttonGoBack;//Boton de regreso
     CheckBox goTerm;
     String termClick;
 
@@ -43,11 +53,8 @@ public class Signup extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_signup);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
+
+
         // Boton ir atras pantalla de inicio
         buttonGoBack = findViewById(R.id.goBack);
         buttonGoBack.setOnClickListener(new View.OnClickListener() {
@@ -57,16 +64,28 @@ public class Signup extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+
+        //Registro de usuario
+        user_name           =findViewById(R.id.enterYourName);
+        user_email          =findViewById(R.id.enterYourEmail);
+        password            =findViewById(R.id.enterYourPassword);
+        password_confirm    =findViewById(R.id.enterYourRePassword);
+        singUpButtonGo      =findViewById(R.id.singUpButton);
+
+
         //Boton de registrarse
-        singUpButtonGo  = (Button) findViewById(R.id.singUpButton);
-        singUpButtonGo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                    Intent j = new Intent(Signup.this, Signin.class);
-                    startActivity(j);
-            }
+        singUpButtonGo.setOnClickListener(view ->{
+            //Registrar usuarios en la base de datos
+            user = new User();
+            user.userName = user_name.getText().toString();
+            user.email = user_email.getText().toString();
+            user.password = password.getText().toString();
+
+            storageUserInDatabase();
         });
 
+        //CheckBox
         termClick = getString(R.string.checkBoxGreen);
         goTerm = findViewById(R.id.checkBoxTerm);
 
@@ -90,5 +109,15 @@ public class Signup extends AppCompatActivity {
 
 
 
+    }
+
+    private void storageUserInDatabase(){
+
+        FileManager fileManager = new FileManager(this);
+
+        if(fileManager.insertNewUser(user)){
+            Intent intent = new Intent(this, Signin.class);
+            startActivity(intent);
+        }
     }
 }

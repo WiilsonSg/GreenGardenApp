@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,9 +14,19 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.wilsoncode.greengardenapp.models.User;
+
 import java.util.ArrayList;
 
 public class MainScreen extends AppCompatActivity {
+
+    //Nombre de usuario registrado
+    User user;
+
+    TextView userNameScreen;
+
+    TextView user_Name;
+
 
     ImageView homeGreen;
     ImageView categoryGreen;
@@ -43,6 +54,14 @@ public class MainScreen extends AppCompatActivity {
             return insets;
         });
 
+        user_Name = findViewById(R.id.userName);
+
+        //Recuperamos el usuario Global de la app
+        user = (User) getApplicationContext();
+        user_Name.setText(user.userName);
+
+
+
 
         //listGarden
         list = findViewById(R.id.listGardenView);
@@ -57,6 +76,14 @@ public class MainScreen extends AppCompatActivity {
         grid_main = findViewById(R.id.grid);
 
 
+        //Usuario
+        userNameScreen = findViewById(R.id.userName);
+        //Recuperamos el usuario GLOBAL de la aplicación
+        user = (User) getApplicationContext();
+        userNameScreen.setText(user.userName);
+
+
+        //Botones de la barra de navegación
         homeGreen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
