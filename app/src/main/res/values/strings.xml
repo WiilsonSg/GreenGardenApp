@@ -58,9 +58,11 @@ Estos Términos se regirán e interpretarán de acuerdo con las leyes del país 
 11. Contacto\n
 Si tiene alguna pregunta sobre estos Términos, por favor contacte a GreenGarden en serratogwilson@gmail.com</string>
 
-    <string name="checkBoxGreen"> Acepta <link>Términos.</link></string>
+    <string name="checkBoxGreen"> Aceptar <link>Términos.</link></string>
 
-    <string name="bio">¡¡Hola!! Soy ingeniera 🌱 apasionada por la jardinería urbana y la sostenibilidad. 🌿</string>
+    <string name="recover_password">¿No recuerdas tu contraseña?<b><font color='#068251'> recuperala </font></b></string>
+
+    <string name="bio">🌱 Con GreenGarden, puedo optimizar el cuidado de mis plantas y prácticas ecológicas para un jardín más verde y saludable. 🌿🌿</string>
 
 
 </resources>

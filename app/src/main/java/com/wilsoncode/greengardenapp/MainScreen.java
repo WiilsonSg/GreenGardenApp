@@ -25,8 +25,6 @@ public class MainScreen extends AppCompatActivity {
 
     TextView userNameScreen;
 
-    TextView user_Name;
-
 
     ImageView homeGreen;
     ImageView categoryGreen;
@@ -50,18 +48,14 @@ public class MainScreen extends AppCompatActivity {
         setContentView(R.layout.activity_main_screen);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+            v.setPadding(
+                    v.getPaddingLeft(),
+                    v.getPaddingTop(),
+                    v.getPaddingRight(),
+                    systemBars.bottom
+            );
             return insets;
         });
-
-        user_Name = findViewById(R.id.userName);
-
-        //Recuperamos el usuario Global de la app
-        user = (User) getApplicationContext();
-        user_Name.setText(user.userName);
-
-
-
 
         //listGarden
         list = findViewById(R.id.listGardenView);

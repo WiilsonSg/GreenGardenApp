@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,9 +14,17 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.wilsoncode.greengardenapp.models.User;
+
 import java.util.ArrayList;
 
 public class MainScreenGrid extends AppCompatActivity {
+
+    //Nombre de usuario registrado
+    User user;
+
+    TextView userNameScreen;
+
 
     ImageView list_main;
 
@@ -34,9 +43,21 @@ public class MainScreenGrid extends AppCompatActivity {
         setContentView(R.layout.activity_main_screen_grid);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+            v.setPadding(
+                    v.getPaddingLeft(),
+                    v.getPaddingTop(),
+                    v.getPaddingRight(),
+                    systemBars.bottom
+            );
             return insets;
         });
+
+        //Usuario
+        userNameScreen = findViewById(R.id.userName);
+        //Recuperamos el usuario GLOBAL de la aplicación
+        user = (User) getApplicationContext();
+        userNameScreen.setText(user.userName);
+
 
         list_main = findViewById(R.id.list);
 

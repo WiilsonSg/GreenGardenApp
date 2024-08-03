@@ -55,7 +55,7 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="514dp"
+        android:layout_height="600dp"
         android:gravity="center"
         android:orientation="vertical"
         android:paddingLeft="32dp"
@@ -66,7 +66,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.885">
+        app:layout_constraintVertical_bias="1.0">
 
         <TextView
             android:id="@+id/NameR"
@@ -162,9 +162,9 @@
             android:id="@+id/checkBoxTerm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="@string/checkBoxGreen"
             android:textColor="@color/Black"
-            android:textSize="16dp"
-            android:text="@string/checkBoxGreen"/>
+            android:textSize="16dp" />
 
 
         <TextView
@@ -175,8 +175,7 @@
             android:text="Registrarse con"
             android:textAlignment="center"
             android:textColor="@color/BlueD"
-            android:textStyle="bold"
-            />
+            android:textStyle="bold" />
 
 
         <ImageView
@@ -190,7 +189,7 @@
             android:id="@+id/singUpButton"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="10dp"
             android:backgroundTint="#068251"
             android:text="Registrarse"
             android:textColor="@color/White"

@@ -48,7 +48,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.172"
         app:shapeAppearanceOverlay="@style/circular"
-        app:srcCompat="@drawable/model"
+        app:srcCompat="@drawable/campesino"
         app:strokeColor="@color/White"
         app:strokeWidth="2dp" />
 
@@ -81,7 +81,7 @@
             android:layout_height="41dp">
 
             <EditText
-                android:id="@+id/password_entry"
+                android:id="@+id/userName"
                 android:layout_width="match_parent"
                 android:layout_height="41dp"
                 android:textColor="#5A5858"
@@ -139,7 +139,7 @@
                     android:background="@drawable/edittex_background"
                     android:hint="@string/bio"
                     android:scrollbars="vertical"
-                    android:textColor="#5A5858"
+                    android:textColor="#000000"
                     android:textSize="19dp" />
 
                 <androidx.constraintlayout.utils.widget.ImageFilterButton

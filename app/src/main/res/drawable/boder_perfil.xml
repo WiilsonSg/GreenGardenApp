@@ -13,7 +13,5 @@
             <solid android:color="@color/White"/>
         </shape>
     </item>
-
-
 </layer-list>
 
