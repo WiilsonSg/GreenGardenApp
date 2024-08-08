@@ -60,7 +60,7 @@ GreenGarden es una aplicación móvil diseñada para ayudar a los usuarios a ges
 
 | <img src="https://private-user-images.githubusercontent.com/122696466/356072875-ad27aa05-23b4-4ef7-bff4-871b3b9d1ed2.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjMwODgzMjEsIm5iZiI6MTcyMzA4ODAyMSwicGF0aCI6Ii8xMjI2OTY0NjYvMzU2MDcyODc1LWFkMjdhYTA1LTIzYjQtNGVmNy1iZmY0LTg3MWIzYjlkMWVkMi5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwODA4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDgwOFQwMzMzNDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wNWZkYzE1NmNkNmU5N2NjYWZkYTgzZTMxMmFkNTQ2NTgzOTMyMjJjMmQ1ZTIzOTJhMGYwZDY5MGIyNzkxNmZkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.IjijOfXdqYIjBXLcLLQik9aUyUuIbf6wrF0GFjbI57A" width="120" height="220"/>&nbsp; | ![Imagen 2](URL_de_la_imagen_2) | ![Imagen 3](URL_de_la_imagen_3) |
 |--------------------------------|--------------------------------|--------------------------------|
-| Pantalla de inicio de la aplicación  \n que da la bienvenida a los usuarios.                  | Descripción 2                  | Descripción 3                  |
+| Pantalla de inicio de la aplicación    | Descripción 2                  | Descripción 3                  |
 
 | ![Imagen 4](URL_de_la_imagen_4) | ![Imagen 5](URL_de_la_imagen_5) | ![Imagen 6](URL_de_la_imagen_6) |
 |--------------------------------|--------------------------------|--------------------------------|
@@ -73,6 +73,12 @@ GreenGarden es una aplicación móvil diseñada para ayudar a los usuarios a ges
 | ![Imagen 10](URL_de_la_imagen_10) | ![Imagen 11](URL_de_la_imagen_11) | ![Imagen 12](URL_de_la_imagen_12) |
 |----------------------------------|----------------------------------|----------------------------------|
 | Descripción 10                   | Descripción 11                   | Descripción 12                   |
+
+
+
+## Imágenes
+
+<img src="https://private-user-images.githubusercontent.com/122696466/356072849-5db07e50-1183-4d15-ace6-84f14ecdd064.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjMwODgzMjEsIm5iZiI6MTcyMzA4ODAyMSwicGF0aCI6Ii8xMjI2OTY0NjYvMzU2MDcyODQ5LTVkYjA3ZTUwLTExODMtNGQxNS1hY2U2LTg0ZjE0ZWNkZDA2NC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwODA4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDgwOFQwMzMzNDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00MzcwNmI3MjY1YzMyMWE0NWYwMzZkMGI2ODI5N2FiNjA3YjhiYzZhZjRkOGJkZmYwNTE0ZDE0NTM5YmM5OWEwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.cIZuBlFNh4dZ4L-Tqe0FhZCPaYPXSWnISw5Ay4Ytx-c" width="520" height="720"/>&nbsp;
 
 
 ## Instalación
