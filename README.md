@@ -58,9 +58,6 @@ GreenGarden es una aplicación móvil diseñada para ayudar a los usuarios a ges
 
 ## Imágenes en Cuadrícula de 3
 
-| ![Imagen 1](URL_de_la_imagen_1) | ![Imagen 2](URL_de_la_imagen_2) | ![Imagen 3](URL_de_la_imagen_3) |
-|--------------------------------|--------------------------------|--------------------------------|
-| Descripción 1                  | Descripción 2                  | Descripción 3                  |
 
 
 
