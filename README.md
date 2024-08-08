@@ -56,14 +56,8 @@ GreenGarden es una aplicación móvil diseñada para ayudar a los usuarios a ges
   
 **En Android**: https://youtu.be/GK3Qg00DD64
 
-## Imágenes en Cuadrícula de 3
-
-<img src="https://github.com/WiilsonSg/GreenGardenApp/issues/1"/>
-
-
-
 ## Instalación
 
-1. Clona este repositorio:
+1. Clona repositorio:
    ```bash
    https://github.com/WiilsonSg/GreenGardenApp.git
