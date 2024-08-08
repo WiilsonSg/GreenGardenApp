@@ -11,6 +11,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.wilsoncode.greengardenapp.categories.RegisterWater;
+
 public class Category extends AppCompatActivity {
 
     ImageView homeGreen;
@@ -18,6 +20,10 @@ public class Category extends AppCompatActivity {
     ImageView staticsGreen;
     ImageView tipsGreen;
     ImageView profileGreen;
+
+    //Register
+
+    ImageView registerWater;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +46,10 @@ public class Category extends AppCompatActivity {
         staticsGreen = findViewById(R.id.statics);
         tipsGreen = findViewById(R.id.tips);
         profileGreen = findViewById(R.id.profile);
+
+
+        //Register
+        registerWater = findViewById(R.id.RegisterWater);
 
 
         homeGreen.setOnClickListener(new View.OnClickListener() {
@@ -81,5 +91,17 @@ public class Category extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        registerWater.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Category.this, RegisterWater.class);
+                startActivity(intent);
+            }
+        });
     }
+
+
+
+
 }

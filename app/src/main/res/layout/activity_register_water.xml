@@ -50,7 +50,7 @@
             android:textSize="25dp"/>
 
         <TextView
-            android:id="@+id/vol"
+            android:id="@+id/volq"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
@@ -59,14 +59,14 @@
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/emailUser"
+            android:id="@+id/volumeW"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_marginTop="0dp"
             android:background="@drawable/edittex_background"
             android:ems="10"
-            android:hint="Ingresa tu correo"
-            android:inputType="textEmailAddress"
+            android:hint="Ingresa el valor"
+            android:inputType="text"
             android:paddingLeft="9dp"
             android:textColor="#5A5858"
             android:textSize="18dp" />
@@ -81,14 +81,14 @@
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/emaidlUsedr"
+            android:id="@+id/costW"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_marginTop="0dp"
             android:background="@drawable/edittex_background"
             android:ems="10"
-            android:hint="Ingresa tu correo"
-            android:inputType="textEmailAddress"
+            android:hint="Ingresa el costo"
+            android:inputType="text"
             android:paddingLeft="9dp"
             android:textColor="#5A5858"
             android:textSize="18dp" />
@@ -108,8 +108,8 @@
             android:layout_width="match_parent"
             android:layout_height="41dp">
 
-            <TextView
-                android:id="@+id/passwordUser"
+            <EditText
+                android:id="@+id/dateW"
                 android:layout_width="match_parent"
                 android:layout_height="41dp"
                 android:layout_marginTop="0dp"
@@ -133,16 +133,35 @@
                 app:srcCompat="@drawable/calendar" />
         </RelativeLayout>
 
-        <Button
-            android:id="@+id/loginMain"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginTop="90dp"
-            android:backgroundTint="#068251"
-            android:text="Registrar"
-            android:textColor="@color/White"
-            android:textSize="18dp"
-            android:textStyle="bold" />
+            android:layout_height="150dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/registerW"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:backgroundTint="#068251"
+                android:text="Registrar"
+                android:textColor="@color/White"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ViewButton"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/BlueD"
+                android:text="Ver"
+                android:textColor="@color/White"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </LinearLayout>
 
 
     </LinearLayout>

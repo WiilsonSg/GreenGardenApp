@@ -13,6 +13,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class FileManager {
 
@@ -121,4 +122,60 @@ public class FileManager {
 
 
     //Insert new huerto de GreenGarde
+
+    //Insert new categoria de consumo de agua
+    public void insertNewCategory(User user){
+
+        try {
+            ArrayList<String> newFileData = new ArrayList<String>();
+            BufferedReader reader = new BufferedReader(new FileReader(userFile));
+
+            String data;
+            while ((data = reader.readLine()) != null){
+                //Convertimos el dato leido en un objeto de tipo User
+                User dbUser = new Gson().fromJson(data, User.class);
+
+                if(dbUser.email.equals(user.email)){
+
+                    dbUser.categoryType = user.categoryType;
+
+                }
+                newFileData.add(new Gson().toJson(dbUser));
+            }
+            reader.close();
+
+            BufferedWriter writer = new BufferedWriter(new FileWriter(userFile, false));
+
+            for (String newData : newFileData){
+                writer.write(newData);
+                writer.newLine();
+            }
+
+            writer.close();
+        }catch (IOException e){
+
+        }
+    }
+
+    public boolean readCategoryWater(User user){
+        try {
+            BufferedReader reader = new BufferedReader(new FileReader(userFile));
+
+            String data;
+            while ((data = reader.readLine()) != null){
+                //Convertimos el dato leido en un objeto de tipo User
+                User dbUser = new Gson().fromJson(data, User.class);
+
+                if(dbUser.email.equals(user.email)){
+                    user.categoryType = dbUser.categoryType;
+                    return true;
+                }
+            }
+            reader.close();
+        }catch (IOException e){
+            Toast.makeText(context, "Error al leer el archivo " + userFile.getName() + ": " + e.getMessage(), Toast.LENGTH_LONG).show();
+
+        }
+        return false;
+    }
 }

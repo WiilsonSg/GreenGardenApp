@@ -4,12 +4,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import com.wilsoncode.greengardenapp.Records.RecordWater;
 
 public class Statistics extends AppCompatActivity {
 
@@ -18,6 +21,8 @@ public class Statistics extends AppCompatActivity {
     ImageView staticsGreen;
     ImageView tipsGreen;
     ImageView profileGreen;
+
+    LinearLayout ConsumoWater;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +39,18 @@ public class Statistics extends AppCompatActivity {
             );
             return insets;
         });
+
+        ConsumoWater = findViewById(R.id.ConsumoWater);
+
+        ConsumoWater.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Statistics.this, RecordWater.class);
+                startActivity(intent);
+            }
+        });
+
+
 
         homeGreen = findViewById(R.id.home);
         categoryGreen = findViewById(R.id.category);
