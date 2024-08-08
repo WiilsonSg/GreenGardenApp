@@ -6,15 +6,35 @@ GreenGarden es una aplicación móvil diseñada para ayudar a los usuarios a ges
 
 ## Características
 
-•	🌟 Pantalla principal de bienvenida
-•	🔑 Pantalla de inicio de sesión
-•	📝 Pantalla de registro de usuarios
-•	🔒 Pantalla de recuperar contraseña
-•	🌿👤 Pantalla principal, información del usuario y de las plantas
-•	📋 Pantalla de categorías
-•	📊 Pantalla de estadísticas
-•	💡 Pantalla de tips o consejos
-•	✏️🔓 Pantalla de editar perfil y salida de sesión
+## Pantallas de la Aplicación
+
+- 🌟 **Pantalla Principal de Bienvenida**  
+  Pantalla de inicio de la aplicación que da la bienvenida a los usuarios.
+
+- 🔑 **Pantalla de Inicio de Sesión**  
+  Pantalla para que los usuarios ingresen sus credenciales y accedan a su cuenta.
+
+- 📝 **Pantalla de Registro de Usuarios**  
+  Pantalla para que los nuevos usuarios creen una cuenta proporcionando información personal.
+
+- 🔒 **Pantalla de Recuperar Contraseña**  
+  Pantalla para que los usuarios recuperen o restablezcan su contraseña en caso de olvidarla.
+
+- 🌿👤 **Pantalla Principal: Información del Usuario y de las Plantas**  
+  Pantalla donde los usuarios pueden ver y gestionar la información de su perfil y de sus plantas.
+
+- 📋 **Pantalla de Categorías**  
+  Pantalla para seleccionar y gestionar diferentes categorías relacionadas con el cuidado de las plantas.
+
+- 📊 **Pantalla de Estadísticas**  
+  Pantalla que muestra estadísticas y datos relacionados con el cuidado de las plantas.
+
+- 💡 **Pantalla de Tips o Consejos**  
+  Pantalla que proporciona consejos y recomendaciones para el cuidado de las plantas.
+
+- ✏️🔓 **Pantalla de Editar Perfil y Salida de Sesión**  
+  Pantalla donde los usuarios pueden editar su perfil y cerrar sesión en la aplicación.
+
 
 
 ## Tecnologías utilizadas
