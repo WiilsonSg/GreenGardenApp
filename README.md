@@ -6,11 +6,16 @@ GreenGarden es una aplicación móvil diseñada para ayudar a los usuarios a ges
 
 ## Características
 
-- **Gestión de recursos**: Controla el consumo de agua, energía y fertilizantes.
-- **Registra tus huertos**: Registra tus huertos favoritos y lleva un control detallado de su cuidado.
-- **Interfaz amigable**: Diseño intuitivo que facilita la navegación y el uso de la aplicación.
-- **Alertas y notificaciones**: Recibe avisos sobre las necesidades de riego y cuidado de las plantas.
-- **ChatBot**: Tu asistente virtual que te proporcionará consejos útiles para cuidar de tu huerto urbano de manera efectiva
+•	🌟 Pantalla principal de bienvenida
+•	🔑 Pantalla de inicio de sesión
+•	📝 Pantalla de registro de usuarios
+•	🔒 Pantalla de recuperar contraseña
+•	🌿👤 Pantalla principal, información del usuario y de las plantas
+•	📋 Pantalla de categorías
+•	📊 Pantalla de estadísticas
+•	💡 Pantalla de tips o consejos
+•	✏️🔓 Pantalla de editar perfil y salida de sesión
+
 
 ## Tecnologías utilizadas
 
