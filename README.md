@@ -24,10 +24,10 @@ GreenGarden es una aplicación móvil diseñada para ayudar a los usuarios a ges
   Pantalla donde los usuarios pueden ver y gestionar la información de su perfil y de sus plantas.
 
 - 📋 **Pantalla de Categorías**  
-  Pantalla para seleccionar y gestionar diferentes categorías relacionadas con el cuidado de las plantas.
+  Pantalla para seleccionar y gestionar diferentes categorías.
 
 - 📊 **Pantalla de Estadísticas**  
-  Pantalla que muestra estadísticas y datos relacionados con el cuidado de las plantas.
+  Pantalla que muestra estadísticas y datos.
 
 - 💡 **Pantalla de Tips o Consejos**  
   Pantalla que proporciona consejos y recomendaciones para el cuidado de las plantas.
@@ -38,12 +38,12 @@ GreenGarden es una aplicación móvil diseñada para ayudar a los usuarios a ges
 
 
 ## Tecnologías utilizadas
+<img src="https://github.com/devicons/devicon/blob/master/icons/androidstudio/androidstudio-original-wordmark.svg" width="120" height="120"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg" width="120" height="120"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg" width="120" height="120"/>&nbsp;
 
-- **Lenguaje de programación**: Java
-- **Plataforma**: Android
 
   ## Videos
-**En Figma**: https://youtu.be/6UKJ7fcNPzw?si=pdLCKIoXTq5wwhR9 
   
 **En Android**: https://youtu.be/JhKvBwMoimo?si=4bxDKl8jz9QVKcqw
 
