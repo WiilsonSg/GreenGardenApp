@@ -38,11 +38,12 @@ GreenGarden es una aplicación móvil diseñada para ayudar a los usuarios a ges
 
 
 ## Tecnologías utilizadas
+## Android Studio 
 <img src="https://github.com/devicons/devicon/blob/master/icons/androidstudio/androidstudio-original.svg" width="120" height="120"/>&nbsp;
+##Java
 <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg" width="120" height="120"/>&nbsp;
+##Figma
 <img src="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg" width="120" height="120"/>&nbsp;
-
-## Android Studio  Java  Figma
 
 
   ## Videos
