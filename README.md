@@ -58,7 +58,7 @@ GreenGarden es una aplicación móvil diseñada para ayudar a los usuarios a ges
 
 ## Imágenes en Cuadrícula de 3
 
-
+<img src="https://github.com/WiilsonSg/GreenGardenApp/issues/1"/>
 
 
 
